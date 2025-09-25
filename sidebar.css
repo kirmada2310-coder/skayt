@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    width: 70px;
+    bottom: 0px;
+    top: 55px;
+    left: 0px;
+    background-color: white;
+    z-index: 150;
+}
+
+.sbbuttons {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    height: 75px;
+    transition: background-color 0.15s;
+    justify-content: center;
+    background-color: white ;
+    align-items: center;
+}
+
+.sbbuttons:hover {
+    background-color: rgb(237, 235, 235);
+    cursor: pointer;
+}
+
+.sbimgs {
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.sbpara {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
